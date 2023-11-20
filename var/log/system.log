@@ -1,0 +1,340 @@
+[2023-11-16T07:28:50.599559+00:00] main.ERROR: No arguments expected for "setup:install" command, got " ".
+#0 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Input/ArgvInput.php(86): Symfony\Component\Console\Input\ArgvInput->parseArgument(' ')
+#1 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Input/ArgvInput.php(71): Symfony\Component\Console\Input\ArgvInput->parseToken(' ', true)
+#2 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Input/Input.php(55): Symfony\Component\Console\Input\ArgvInput->parse()
+#3 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Command/Command.php(257): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#4 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Application.php(1040): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /shared/httpd/App-SAAS-Popup-BE/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /shared/httpd/App-SAAS-Popup-BE/bin/magento(23): Symfony\Component\Console\Application->run()
+#9 {main} [] []
+[2023-11-16T07:31:48.474739+00:00] main.ERROR: No arguments expected for "setup:install" command, got " ".
+#0 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Input/ArgvInput.php(86): Symfony\Component\Console\Input\ArgvInput->parseArgument(' ')
+#1 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Input/ArgvInput.php(71): Symfony\Component\Console\Input\ArgvInput->parseToken(' ', true)
+#2 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Input/Input.php(55): Symfony\Component\Console\Input\ArgvInput->parse()
+#3 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Command/Command.php(257): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#4 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Application.php(1040): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /shared/httpd/App-SAAS-Popup-BE/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /shared/httpd/App-SAAS-Popup-BE/bin/magento(23): Symfony\Component\Console\Application->run()
+#9 {main} [] []
+[2023-11-16T07:33:06.706660+00:00] main.ERROR: Parameter validation failed
+#0 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Command/Command.php(264): Magento\Setup\Console\Command\InstallCommand->initialize(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#1 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Application.php(1040): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /shared/httpd/App-SAAS-Popup-BE/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /shared/httpd/App-SAAS-Popup-BE/bin/magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2023-11-16T07:35:13.350398+00:00] main.ERROR: Parameter validation failed
+#0 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Command/Command.php(264): Magento\Setup\Console\Command\InstallCommand->initialize(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#1 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Application.php(1040): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /shared/httpd/App-SAAS-Popup-BE/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /shared/httpd/App-SAAS-Popup-BE/bin/magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2023-11-16T07:40:02.188327+00:00] main.ERROR: Could not validate a connection to Elasticsearch. No alive nodes found in your cluster
+#0 /shared/httpd/App-SAAS-Popup-BE/setup/src/Magento/Setup/Model/SearchConfig.php(69): Magento\Setup\Model\SearchConfig->validateSearchEngine()
+#1 /shared/httpd/App-SAAS-Popup-BE/setup/src/Magento/Setup/Model/Installer.php(1210): Magento\Setup\Model\SearchConfig->saveConfiguration(Array)
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration(Array)
+#3 /shared/httpd/App-SAAS-Popup-BE/setup/src/Magento/Setup/Model/Installer.php(388): call_user_func_array(Array, Array)
+#4 /shared/httpd/App-SAAS-Popup-BE/setup/src/Magento/Setup/Console/Command/InstallCommand.php(238): Magento\Setup\Model\Installer->install(Array)
+#5 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Command/Command.php(298): Magento\Setup\Console\Command\InstallCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Application.php(1040): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /shared/httpd/App-SAAS-Popup-BE/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /shared/httpd/App-SAAS-Popup-BE/bin/magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2023-11-16T07:41:44.792120+00:00] main.ERROR: Could not validate a connection to Elasticsearch. No alive nodes found in your cluster
+#0 /shared/httpd/App-SAAS-Popup-BE/setup/src/Magento/Setup/Model/SearchConfig.php(69): Magento\Setup\Model\SearchConfig->validateSearchEngine()
+#1 /shared/httpd/App-SAAS-Popup-BE/setup/src/Magento/Setup/Model/Installer.php(1210): Magento\Setup\Model\SearchConfig->saveConfiguration(Array)
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration(Array)
+#3 /shared/httpd/App-SAAS-Popup-BE/setup/src/Magento/Setup/Model/Installer.php(388): call_user_func_array(Array, Array)
+#4 /shared/httpd/App-SAAS-Popup-BE/setup/src/Magento/Setup/Console/Command/InstallCommand.php(238): Magento\Setup\Model\Installer->install(Array)
+#5 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Command/Command.php(298): Magento\Setup\Console\Command\InstallCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Application.php(1040): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /shared/httpd/App-SAAS-Popup-BE/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /shared/httpd/App-SAAS-Popup-BE/bin/magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2023-11-16T07:42:28.289817+00:00] main.ERROR: Could not validate a connection to the OpenSearch. No alive nodes found in your cluster
+#0 /shared/httpd/App-SAAS-Popup-BE/setup/src/Magento/Setup/Model/SearchConfig.php(69): Magento\Setup\Model\SearchConfig->validateSearchEngine()
+#1 /shared/httpd/App-SAAS-Popup-BE/setup/src/Magento/Setup/Model/Installer.php(1210): Magento\Setup\Model\SearchConfig->saveConfiguration(Array)
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration(Array)
+#3 /shared/httpd/App-SAAS-Popup-BE/setup/src/Magento/Setup/Model/Installer.php(388): call_user_func_array(Array, Array)
+#4 /shared/httpd/App-SAAS-Popup-BE/setup/src/Magento/Setup/Console/Command/InstallCommand.php(238): Magento\Setup\Model\Installer->install(Array)
+#5 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Command/Command.php(298): Magento\Setup\Console\Command\InstallCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Application.php(1040): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /shared/httpd/App-SAAS-Popup-BE/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /shared/httpd/App-SAAS-Popup-BE/bin/magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2023-11-16T07:43:27.952353+00:00] main.ERROR: Could not validate a connection to Elasticsearch. No alive nodes found in your cluster
+#0 /shared/httpd/App-SAAS-Popup-BE/setup/src/Magento/Setup/Model/SearchConfig.php(69): Magento\Setup\Model\SearchConfig->validateSearchEngine()
+#1 /shared/httpd/App-SAAS-Popup-BE/setup/src/Magento/Setup/Model/Installer.php(1210): Magento\Setup\Model\SearchConfig->saveConfiguration(Array)
+#2 [internal function]: Magento\Setup\Model\Installer->installSearchConfiguration(Array)
+#3 /shared/httpd/App-SAAS-Popup-BE/setup/src/Magento/Setup/Model/Installer.php(388): call_user_func_array(Array, Array)
+#4 /shared/httpd/App-SAAS-Popup-BE/setup/src/Magento/Setup/Console/Command/InstallCommand.php(238): Magento\Setup\Model\Installer->install(Array)
+#5 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Command/Command.php(298): Magento\Setup\Console\Command\InstallCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Application.php(1040): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /shared/httpd/App-SAAS-Popup-BE/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /shared/httpd/App-SAAS-Popup-BE/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /shared/httpd/App-SAAS-Popup-BE/bin/magento(23): Symfony\Component\Console\Application->run()
+#11 {main} [] []
+[2023-11-16T09:10:13.280739+00:00] main.INFO: Item Magento_Backend::system_currency was removed [] []
+[2023-11-16T09:10:13.285110+00:00] main.INFO: Add of item with id Magento_Config::system_config was processed [] []
+[2023-11-16T09:10:13.285566+00:00] main.INFO: Add of item with id Magento_AdminNotification::system_adminnotification was processed [] []
+[2023-11-16T09:10:13.285836+00:00] main.INFO: Add of item with id Magento_Theme::design_config was processed [] []
+[2023-11-16T09:10:13.286163+00:00] main.INFO: Add of item with id Magento_Theme::system_design_theme was processed [] []
+[2023-11-16T09:10:13.286518+00:00] main.INFO: Add of item with id Magento_Backend::system_design_schedule was processed [] []
+[2023-11-16T09:10:13.286869+00:00] main.INFO: Add of item with id Magento_Backend::system_store was processed [] []
+[2023-11-16T09:10:13.287218+00:00] main.INFO: Add of item with id Magento_Backend::dashboard was processed [] []
+[2023-11-16T09:10:13.287580+00:00] main.INFO: Add of item with id Magento_Backend::system was processed [] []
+[2023-11-16T09:10:13.287947+00:00] main.INFO: Add of item with id Magento_Backend::system_tools was processed [] []
+[2023-11-16T09:10:13.288329+00:00] main.INFO: Add of item with id Magento_Backend::system_design was processed [] []
+[2023-11-16T09:10:13.288749+00:00] main.INFO: Add of item with id Magento_Backend::system_convert was processed [] []
+[2023-11-16T09:10:13.289143+00:00] main.INFO: Add of item with id Magento_Backend::system_cache was processed [] []
+[2023-11-16T09:10:13.289520+00:00] main.INFO: Add of item with id Magento_Backend::marketing was processed [] []
+[2023-11-16T09:10:13.289887+00:00] main.INFO: Add of item with id Magento_Backend::marketing_communications was processed [] []
+[2023-11-16T09:10:13.290252+00:00] main.INFO: Add of item with id Magento_Backend::marketing_seo was processed [] []
+[2023-11-16T09:10:13.290609+00:00] main.INFO: Add of item with id Magento_Backend::marketing_user_content was processed [] []
+[2023-11-16T09:10:13.290969+00:00] main.INFO: Add of item with id Magento_Backend::content was processed [] []
+[2023-11-16T09:10:13.291349+00:00] main.INFO: Add of item with id Magento_Backend::content_elements was processed [] []
+[2023-11-16T09:10:13.291715+00:00] main.INFO: Add of item with id Magento_Backend::stores was processed [] []
+[2023-11-16T09:10:13.292405+00:00] main.INFO: Add of item with id Magento_Backend::stores_settings was processed [] []
+[2023-11-16T09:10:13.292911+00:00] main.INFO: Add of item with id Magento_Backend::stores_attributes was processed [] []
+[2023-11-16T09:10:13.293322+00:00] main.INFO: Add of item with id Magento_Backend::other_settings was processed [] []
+[2023-11-16T09:10:13.293713+00:00] main.INFO: Add of item with id Magento_Backend::system_other_settings was processed [] []
+[2023-11-16T09:10:13.294074+00:00] main.INFO: Add of item with id Magento_User::system_acl was processed [] []
+[2023-11-16T09:10:13.294458+00:00] main.INFO: Add of item with id Magento_User::system_acl_users was processed [] []
+[2023-11-16T09:10:13.294860+00:00] main.INFO: Add of item with id Magento_User::system_acl_roles was processed [] []
+[2023-11-16T09:10:13.295262+00:00] main.INFO: Add of item with id Magento_User::system_acl_locks was processed [] []
+[2023-11-16T09:10:13.295620+00:00] main.INFO: Add of item with id Magento_Customer::customer was processed [] []
+[2023-11-16T09:10:13.295998+00:00] main.INFO: Add of item with id Magento_Customer::customer_manage was processed [] []
+[2023-11-16T09:10:13.296407+00:00] main.INFO: Add of item with id Magento_Customer::customer_online was processed [] []
+[2023-11-16T09:10:13.296780+00:00] main.INFO: Add of item with id Magento_Customer::customer_group was processed [] []
+[2023-11-16T09:10:13.297142+00:00] main.INFO: Add of item with id Magento_Backup::system_tools_backup was processed [] []
+[2023-11-16T09:10:13.297505+00:00] main.INFO: Add of item with id Magento_Indexer::system_index was processed [] []
+[2023-11-16T09:10:13.297841+00:00] main.INFO: Add of item with id Magento_Variable::system_variable was processed [] []
+[2023-11-16T09:10:13.298183+00:00] main.INFO: Add of item with id Magento_Cms::cms_page was processed [] []
+[2023-11-16T09:10:13.298518+00:00] main.INFO: Add of item with id Magento_Cms::cms_block was processed [] []
+[2023-11-16T09:10:13.298886+00:00] main.INFO: Add of item with id Magento_Search::search_terms was processed [] []
+[2023-11-16T09:10:13.299255+00:00] main.INFO: Add of item with id Magento_Search::search_synonyms was processed [] []
+[2023-11-16T09:10:13.299643+00:00] main.INFO: Add of item with id Magento_Catalog::catalog was processed [] []
+[2023-11-16T09:10:13.300092+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_products was processed [] []
+[2023-11-16T09:10:13.300483+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_categories was processed [] []
+[2023-11-16T09:10:13.300897+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_attributes_attributes was processed [] []
+[2023-11-16T09:10:13.301271+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_attributes_sets was processed [] []
+[2023-11-16T09:10:13.301652+00:00] main.INFO: Add of item with id Magento_Catalog::inventory was processed [] []
+[2023-11-16T09:10:13.302051+00:00] main.INFO: Add of item with id Magento_CatalogRule::promo was processed [] []
+[2023-11-16T09:10:13.302440+00:00] main.INFO: Add of item with id Magento_CatalogRule::promo_catalog was processed [] []
+[2023-11-16T09:10:13.302814+00:00] main.INFO: Add of item with id Magento_MediaGalleryUi::media was processed [] []
+[2023-11-16T09:10:13.303272+00:00] main.INFO: Add of item with id Magento_MediaGalleryUi::media_gallery was processed [] []
+[2023-11-16T09:10:13.303632+00:00] main.INFO: Add of item with id Magento_Integration::system_extensions was processed [] []
+[2023-11-16T09:10:13.304006+00:00] main.INFO: Add of item with id Magento_Integration::system_integrations was processed [] []
+[2023-11-16T09:10:13.304368+00:00] main.INFO: Add of item with id Magento_Sales::sales was processed [] []
+[2023-11-16T09:10:13.304731+00:00] main.INFO: Add of item with id Magento_Sales::sales_operation was processed [] []
+[2023-11-16T09:10:13.305100+00:00] main.INFO: Add of item with id Magento_Sales::sales_order was processed [] []
+[2023-11-16T09:10:13.305456+00:00] main.INFO: Add of item with id Magento_Sales::sales_invoice was processed [] []
+[2023-11-16T09:10:13.305811+00:00] main.INFO: Add of item with id Magento_Sales::sales_shipment was processed [] []
+[2023-11-16T09:10:13.306171+00:00] main.INFO: Add of item with id Magento_Sales::sales_creditmemo was processed [] []
+[2023-11-16T09:10:13.306526+00:00] main.INFO: Add of item with id Magento_Sales::sales_transactions was processed [] []
+[2023-11-16T09:10:13.306884+00:00] main.INFO: Add of item with id Magento_Sales::system_order_statuses was processed [] []
+[2023-11-16T09:10:13.307245+00:00] main.INFO: Add of item with id Magento_Widget::cms_widget_instance was processed [] []
+[2023-11-16T09:10:13.307630+00:00] main.INFO: Add of item with id Magento_Analytics::business_intelligence was processed [] []
+[2023-11-16T09:10:13.308031+00:00] main.INFO: Add of item with id Magento_Analytics::advanced_reporting was processed [] []
+[2023-11-16T09:10:13.308467+00:00] main.INFO: Add of item with id Magento_Analytics::bi_essentials was processed [] []
+[2023-11-16T09:10:13.308917+00:00] main.INFO: Add of item with id Magento_Downloadable::report_products_downloads was processed [] []
+[2023-11-16T09:10:13.309301+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_import was processed [] []
+[2023-11-16T09:10:13.309659+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_export was processed [] []
+[2023-11-16T09:10:13.310021+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_history was processed [] []
+[2023-11-16T09:10:13.310389+00:00] main.INFO: Add of item with id Magento_Email::template was processed [] []
+[2023-11-16T09:10:13.310746+00:00] main.INFO: Add of item with id Magento_EncryptionKey::system_crypt_key was processed [] []
+[2023-11-16T09:10:13.311110+00:00] main.INFO: Add of item with id Magento_InventoryAdminUi::inventory was processed [] []
+[2023-11-16T09:10:13.311482+00:00] main.INFO: Add of item with id Magento_InventoryAdminUi::source was processed [] []
+[2023-11-16T09:10:13.311847+00:00] main.INFO: Add of item with id Magento_InventoryAdminUi::stock was processed [] []
+[2023-11-16T09:10:13.312209+00:00] main.INFO: Add of item with id Magento_Reports::report was processed [] []
+[2023-11-16T09:10:13.312564+00:00] main.INFO: Add of item with id Magento_Reports::report_marketing was processed [] []
+[2023-11-16T09:10:13.312939+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot was processed [] []
+[2023-11-16T09:10:13.313317+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_sales was processed [] []
+[2023-11-16T09:10:13.313684+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_tax was processed [] []
+[2023-11-16T09:10:13.314042+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_invoiced was processed [] []
+[2023-11-16T09:10:13.314406+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_shipping was processed [] []
+[2023-11-16T09:10:13.314767+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_refunded was processed [] []
+[2023-11-16T09:10:13.315139+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_coupons was processed [] []
+[2023-11-16T09:10:13.315521+00:00] main.INFO: Add of item with id Magento_Reports::report_shopcart_product was processed [] []
+[2023-11-16T09:10:13.315878+00:00] main.INFO: Add of item with id Magento_Reports::report_shopcart_abandoned was processed [] []
+[2023-11-16T09:10:13.316233+00:00] main.INFO: Add of item with id Magento_Reports::report_products was processed [] []
+[2023-11-16T09:10:13.316633+00:00] main.INFO: Add of item with id Magento_Reports::report_products_bestsellers was processed [] []
+[2023-11-16T09:10:13.317003+00:00] main.INFO: Add of item with id Magento_Reports::report_products_sold was processed [] []
+[2023-11-16T09:10:13.317364+00:00] main.INFO: Add of item with id Magento_Reports::report_products_viewed was processed [] []
+[2023-11-16T09:10:13.317722+00:00] main.INFO: Add of item with id Magento_Reports::report_products_lowstock was processed [] []
+[2023-11-16T09:10:13.318078+00:00] main.INFO: Add of item with id Magento_Reports::report_customers was processed [] []
+[2023-11-16T09:10:13.318465+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_accounts was processed [] []
+[2023-11-16T09:10:13.318832+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_totals was processed [] []
+[2023-11-16T09:10:13.319187+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_orders was processed [] []
+[2023-11-16T09:10:13.319578+00:00] main.INFO: Add of item with id Magento_Reports::report_statistics was processed [] []
+[2023-11-16T09:10:13.319953+00:00] main.INFO: Add of item with id Magento_Reports::report_statistics_refresh was processed [] []
+[2023-11-16T09:10:13.320313+00:00] main.INFO: Add of item with id Magento_Search::report_search_term was processed [] []
+[2023-11-16T09:10:13.320669+00:00] main.INFO: Add of item with id Magento_LoginAsCustomerLog::login_log was processed [] []
+[2023-11-16T09:10:13.321038+00:00] main.INFO: Add of item with id Magento_Marketplace::partners was processed [] []
+[2023-11-16T09:10:13.321400+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_template was processed [] []
+[2023-11-16T09:10:13.321754+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_queue was processed [] []
+[2023-11-16T09:10:13.322109+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_subscriber was processed [] []
+[2023-11-16T09:10:13.322465+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_problem was processed [] []
+[2023-11-16T09:10:13.322821+00:00] main.INFO: Add of item with id Magento_SalesRule::promo_quote was processed [] []
+[2023-11-16T09:10:13.323178+00:00] main.INFO: Add of item with id Magento_Sitemap::catalog_sitemap was processed [] []
+[2023-11-16T09:10:13.323548+00:00] main.INFO: Add of item with id Magento_PageBuilder::templates was processed [] []
+[2023-11-16T09:10:13.323906+00:00] main.INFO: Add of item with id Magento_Paypal::report_salesroot_paypal_settlement_reports was processed [] []
+[2023-11-16T09:10:13.324263+00:00] main.INFO: Add of item with id Magento_Paypal::paypal_billing_agreement was processed [] []
+[2023-11-16T09:10:13.324630+00:00] main.INFO: Add of item with id Magento_CheckoutAgreements::sales_checkoutagreement was processed [] []
+[2023-11-16T09:10:13.325028+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_ratings was processed [] []
+[2023-11-16T09:10:13.325417+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_pending was processed [] []
+[2023-11-16T09:10:13.325778+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_reviews_all was processed [] []
+[2023-11-16T09:10:13.326140+00:00] main.INFO: Add of item with id Magento_Review::report_review was processed [] []
+[2023-11-16T09:10:13.326508+00:00] main.INFO: Add of item with id Magento_Review::report_review_customer was processed [] []
+[2023-11-16T09:10:13.326865+00:00] main.INFO: Add of item with id Magento_Review::report_review_product was processed [] []
+[2023-11-16T09:10:13.327252+00:00] main.INFO: Add of item with id Magento_UrlRewrite::urlrewrite was processed [] []
+[2023-11-16T09:10:13.327608+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax was processed [] []
+[2023-11-16T09:10:13.327975+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax_rules was processed [] []
+[2023-11-16T09:10:13.328333+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax_rates was processed [] []
+[2023-11-16T09:10:13.328727+00:00] main.INFO: Add of item with id Magento_TaxImportExport::system_convert_tax was processed [] []
+[2023-11-16T09:10:13.329093+00:00] main.INFO: Add of item with id Magento_AsynchronousOperations::system_magento_logging was processed [] []
+[2023-11-16T09:10:13.329461+00:00] main.INFO: Add of item with id Magento_AsynchronousOperations::system_magento_logging_bulk_operations was processed [] []
+[2023-11-16T09:10:13.329822+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency was processed [] []
+[2023-11-16T09:10:13.330197+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency_rates was processed [] []
+[2023-11-16T09:10:13.330558+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency_symbols was processed [] []
+[2023-11-16T09:10:13.330923+00:00] main.INFO: Add of item with id PayPal_Braintree::settlement_report was processed [] []
+[2023-11-16T09:10:13.331290+00:00] main.INFO: Add of item with id PayPal_Braintree::virtual_terminal was processed [] []
+[2023-11-16T09:13:44.475608+00:00] main.INFO: Item Magento_Backend::system_currency was removed [] []
+[2023-11-16T09:13:44.477722+00:00] main.INFO: Add of item with id Magento_Config::system_config was processed [] []
+[2023-11-16T09:13:44.478202+00:00] main.INFO: Add of item with id Magento_AdminNotification::system_adminnotification was processed [] []
+[2023-11-16T09:13:44.478689+00:00] main.INFO: Add of item with id Magento_Theme::design_config was processed [] []
+[2023-11-16T09:13:44.479073+00:00] main.INFO: Add of item with id Magento_Theme::system_design_theme was processed [] []
+[2023-11-16T09:13:44.479442+00:00] main.INFO: Add of item with id Magento_Backend::system_design_schedule was processed [] []
+[2023-11-16T09:13:44.479798+00:00] main.INFO: Add of item with id Magento_Backend::system_store was processed [] []
+[2023-11-16T09:13:44.480165+00:00] main.INFO: Add of item with id Magento_Backend::dashboard was processed [] []
+[2023-11-16T09:13:44.480525+00:00] main.INFO: Add of item with id Magento_Backend::system was processed [] []
+[2023-11-16T09:13:44.480896+00:00] main.INFO: Add of item with id Magento_Backend::system_tools was processed [] []
+[2023-11-16T09:13:44.481270+00:00] main.INFO: Add of item with id Magento_Backend::system_design was processed [] []
+[2023-11-16T09:13:44.481632+00:00] main.INFO: Add of item with id Magento_Backend::system_convert was processed [] []
+[2023-11-16T09:13:44.482004+00:00] main.INFO: Add of item with id Magento_Backend::system_cache was processed [] []
+[2023-11-16T09:13:44.482361+00:00] main.INFO: Add of item with id Magento_Backend::marketing was processed [] []
+[2023-11-16T09:13:44.482729+00:00] main.INFO: Add of item with id Magento_Backend::marketing_communications was processed [] []
+[2023-11-16T09:13:44.483086+00:00] main.INFO: Add of item with id Magento_Backend::marketing_seo was processed [] []
+[2023-11-16T09:13:44.483445+00:00] main.INFO: Add of item with id Magento_Backend::marketing_user_content was processed [] []
+[2023-11-16T09:13:44.483802+00:00] main.INFO: Add of item with id Magento_Backend::content was processed [] []
+[2023-11-16T09:13:44.484169+00:00] main.INFO: Add of item with id Magento_Backend::content_elements was processed [] []
+[2023-11-16T09:13:44.484528+00:00] main.INFO: Add of item with id Magento_Backend::stores was processed [] []
+[2023-11-16T09:13:44.484898+00:00] main.INFO: Add of item with id Magento_Backend::stores_settings was processed [] []
+[2023-11-16T09:13:44.485262+00:00] main.INFO: Add of item with id Magento_Backend::stores_attributes was processed [] []
+[2023-11-16T09:13:44.485633+00:00] main.INFO: Add of item with id Magento_Backend::other_settings was processed [] []
+[2023-11-16T09:13:44.485995+00:00] main.INFO: Add of item with id Magento_Backend::system_other_settings was processed [] []
+[2023-11-16T09:13:44.486354+00:00] main.INFO: Add of item with id Magento_User::system_acl was processed [] []
+[2023-11-16T09:13:44.486726+00:00] main.INFO: Add of item with id Magento_User::system_acl_users was processed [] []
+[2023-11-16T09:13:44.487083+00:00] main.INFO: Add of item with id Magento_User::system_acl_roles was processed [] []
+[2023-11-16T09:13:44.487440+00:00] main.INFO: Add of item with id Magento_User::system_acl_locks was processed [] []
+[2023-11-16T09:13:44.487795+00:00] main.INFO: Add of item with id Magento_Customer::customer was processed [] []
+[2023-11-16T09:13:44.488170+00:00] main.INFO: Add of item with id Magento_Customer::customer_manage was processed [] []
+[2023-11-16T09:13:44.488637+00:00] main.INFO: Add of item with id Magento_Customer::customer_online was processed [] []
+[2023-11-16T09:13:44.489002+00:00] main.INFO: Add of item with id Magento_Customer::customer_group was processed [] []
+[2023-11-16T09:13:44.489360+00:00] main.INFO: Add of item with id Magento_Backup::system_tools_backup was processed [] []
+[2023-11-16T09:13:44.489719+00:00] main.INFO: Add of item with id Magento_Indexer::system_index was processed [] []
+[2023-11-16T09:13:44.490075+00:00] main.INFO: Add of item with id Magento_Variable::system_variable was processed [] []
+[2023-11-16T09:13:44.490443+00:00] main.INFO: Add of item with id Magento_Cms::cms_page was processed [] []
+[2023-11-16T09:13:44.490800+00:00] main.INFO: Add of item with id Magento_Cms::cms_block was processed [] []
+[2023-11-16T09:13:44.491168+00:00] main.INFO: Add of item with id Magento_Search::search_terms was processed [] []
+[2023-11-16T09:13:44.491524+00:00] main.INFO: Add of item with id Magento_Search::search_synonyms was processed [] []
+[2023-11-16T09:13:44.491880+00:00] main.INFO: Add of item with id Magento_Catalog::catalog was processed [] []
+[2023-11-16T09:13:44.492260+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_products was processed [] []
+[2023-11-16T09:13:44.492620+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_categories was processed [] []
+[2023-11-16T09:13:44.492986+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_attributes_attributes was processed [] []
+[2023-11-16T09:13:44.493342+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_attributes_sets was processed [] []
+[2023-11-16T09:13:44.493704+00:00] main.INFO: Add of item with id Magento_Catalog::inventory was processed [] []
+[2023-11-16T09:13:44.494068+00:00] main.INFO: Add of item with id Magento_CatalogRule::promo was processed [] []
+[2023-11-16T09:13:44.494431+00:00] main.INFO: Add of item with id Magento_CatalogRule::promo_catalog was processed [] []
+[2023-11-16T09:13:44.495203+00:00] main.INFO: Add of item with id Magento_MediaGalleryUi::media was processed [] []
+[2023-11-16T09:13:44.495998+00:00] main.INFO: Add of item with id Magento_MediaGalleryUi::media_gallery was processed [] []
+[2023-11-16T09:13:44.496359+00:00] main.INFO: Add of item with id Magento_Integration::system_extensions was processed [] []
+[2023-11-16T09:13:44.496722+00:00] main.INFO: Add of item with id Magento_Integration::system_integrations was processed [] []
+[2023-11-16T09:13:44.497097+00:00] main.INFO: Add of item with id Magento_Sales::sales was processed [] []
+[2023-11-16T09:13:44.497459+00:00] main.INFO: Add of item with id Magento_Sales::sales_operation was processed [] []
+[2023-11-16T09:13:44.497822+00:00] main.INFO: Add of item with id Magento_Sales::sales_order was processed [] []
+[2023-11-16T09:13:44.498171+00:00] main.INFO: Add of item with id Magento_Sales::sales_invoice was processed [] []
+[2023-11-16T09:13:44.498551+00:00] main.INFO: Add of item with id Magento_Sales::sales_shipment was processed [] []
+[2023-11-16T09:13:44.498871+00:00] main.INFO: Add of item with id Magento_Sales::sales_creditmemo was processed [] []
+[2023-11-16T09:13:44.499189+00:00] main.INFO: Add of item with id Magento_Sales::sales_transactions was processed [] []
+[2023-11-16T09:13:44.499504+00:00] main.INFO: Add of item with id Magento_Sales::system_order_statuses was processed [] []
+[2023-11-16T09:13:44.499819+00:00] main.INFO: Add of item with id Magento_Widget::cms_widget_instance was processed [] []
+[2023-11-16T09:13:44.500141+00:00] main.INFO: Add of item with id Magento_Analytics::business_intelligence was processed [] []
+[2023-11-16T09:13:44.500495+00:00] main.INFO: Add of item with id Magento_Analytics::advanced_reporting was processed [] []
+[2023-11-16T09:13:44.500843+00:00] main.INFO: Add of item with id Magento_Analytics::bi_essentials was processed [] []
+[2023-11-16T09:13:44.501210+00:00] main.INFO: Add of item with id Magento_Downloadable::report_products_downloads was processed [] []
+[2023-11-16T09:13:44.501562+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_import was processed [] []
+[2023-11-16T09:13:44.501903+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_export was processed [] []
+[2023-11-16T09:13:44.502256+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_history was processed [] []
+[2023-11-16T09:13:44.502616+00:00] main.INFO: Add of item with id Magento_Email::template was processed [] []
+[2023-11-16T09:13:44.502990+00:00] main.INFO: Add of item with id Magento_EncryptionKey::system_crypt_key was processed [] []
+[2023-11-16T09:13:44.503380+00:00] main.INFO: Add of item with id Magento_InventoryAdminUi::inventory was processed [] []
+[2023-11-16T09:13:44.503764+00:00] main.INFO: Add of item with id Magento_InventoryAdminUi::source was processed [] []
+[2023-11-16T09:13:44.504125+00:00] main.INFO: Add of item with id Magento_InventoryAdminUi::stock was processed [] []
+[2023-11-16T09:13:44.504492+00:00] main.INFO: Add of item with id Magento_Reports::report was processed [] []
+[2023-11-16T09:13:44.504844+00:00] main.INFO: Add of item with id Magento_Reports::report_marketing was processed [] []
+[2023-11-16T09:13:44.505201+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot was processed [] []
+[2023-11-16T09:13:44.505568+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_sales was processed [] []
+[2023-11-16T09:13:44.505922+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_tax was processed [] []
+[2023-11-16T09:13:44.506273+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_invoiced was processed [] []
+[2023-11-16T09:13:44.506622+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_shipping was processed [] []
+[2023-11-16T09:13:44.506980+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_refunded was processed [] []
+[2023-11-16T09:13:44.507330+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_coupons was processed [] []
+[2023-11-16T09:13:44.507691+00:00] main.INFO: Add of item with id Magento_Reports::report_shopcart_product was processed [] []
+[2023-11-16T09:13:44.508042+00:00] main.INFO: Add of item with id Magento_Reports::report_shopcart_abandoned was processed [] []
+[2023-11-16T09:13:44.508449+00:00] main.INFO: Add of item with id Magento_Reports::report_products was processed [] []
+[2023-11-16T09:13:44.508829+00:00] main.INFO: Add of item with id Magento_Reports::report_products_bestsellers was processed [] []
+[2023-11-16T09:13:44.509187+00:00] main.INFO: Add of item with id Magento_Reports::report_products_sold was processed [] []
+[2023-11-16T09:13:44.509539+00:00] main.INFO: Add of item with id Magento_Reports::report_products_viewed was processed [] []
+[2023-11-16T09:13:44.509898+00:00] main.INFO: Add of item with id Magento_Reports::report_products_lowstock was processed [] []
+[2023-11-16T09:13:44.510269+00:00] main.INFO: Add of item with id Magento_Reports::report_customers was processed [] []
+[2023-11-16T09:13:44.510717+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_accounts was processed [] []
+[2023-11-16T09:13:44.511197+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_totals was processed [] []
+[2023-11-16T09:13:44.511620+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_orders was processed [] []
+[2023-11-16T09:13:44.512084+00:00] main.INFO: Add of item with id Magento_Reports::report_statistics was processed [] []
+[2023-11-16T09:13:44.512500+00:00] main.INFO: Add of item with id Magento_Reports::report_statistics_refresh was processed [] []
+[2023-11-16T09:13:44.512863+00:00] main.INFO: Add of item with id Magento_Search::report_search_term was processed [] []
+[2023-11-16T09:13:44.513253+00:00] main.INFO: Add of item with id Magento_LoginAsCustomerLog::login_log was processed [] []
+[2023-11-16T09:13:44.513608+00:00] main.INFO: Add of item with id Magento_Marketplace::partners was processed [] []
+[2023-11-16T09:13:44.514000+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_template was processed [] []
+[2023-11-16T09:13:44.514495+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_queue was processed [] []
+[2023-11-16T09:13:44.514948+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_subscriber was processed [] []
+[2023-11-16T09:13:44.515351+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_problem was processed [] []
+[2023-11-16T09:13:44.515754+00:00] main.INFO: Add of item with id Magento_SalesRule::promo_quote was processed [] []
+[2023-11-16T09:13:44.516129+00:00] main.INFO: Add of item with id Magento_Sitemap::catalog_sitemap was processed [] []
+[2023-11-16T09:13:44.516483+00:00] main.INFO: Add of item with id Magento_PageBuilder::templates was processed [] []
+[2023-11-16T09:13:44.516838+00:00] main.INFO: Add of item with id Magento_Paypal::report_salesroot_paypal_settlement_reports was processed [] []
+[2023-11-16T09:13:44.517193+00:00] main.INFO: Add of item with id Magento_Paypal::paypal_billing_agreement was processed [] []
+[2023-11-16T09:13:44.517546+00:00] main.INFO: Add of item with id Magento_CheckoutAgreements::sales_checkoutagreement was processed [] []
+[2023-11-16T09:13:44.517899+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_ratings was processed [] []
+[2023-11-16T09:13:44.518274+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_pending was processed [] []
+[2023-11-16T09:13:44.518673+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_reviews_all was processed [] []
+[2023-11-16T09:13:44.519036+00:00] main.INFO: Add of item with id Magento_Review::report_review was processed [] []
+[2023-11-16T09:13:44.519418+00:00] main.INFO: Add of item with id Magento_Review::report_review_customer was processed [] []
+[2023-11-16T09:13:44.519843+00:00] main.INFO: Add of item with id Magento_Review::report_review_product was processed [] []
+[2023-11-16T09:13:44.520222+00:00] main.INFO: Add of item with id Magento_UrlRewrite::urlrewrite was processed [] []
+[2023-11-16T09:13:44.520589+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax was processed [] []
+[2023-11-16T09:13:44.520974+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax_rules was processed [] []
+[2023-11-16T09:13:44.521331+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax_rates was processed [] []
+[2023-11-16T09:13:44.521684+00:00] main.INFO: Add of item with id Magento_TaxImportExport::system_convert_tax was processed [] []
+[2023-11-16T09:13:44.522082+00:00] main.INFO: Add of item with id Magento_AsynchronousOperations::system_magento_logging was processed [] []
+[2023-11-16T09:13:44.522445+00:00] main.INFO: Add of item with id Magento_AsynchronousOperations::system_magento_logging_bulk_operations was processed [] []
+[2023-11-16T09:13:44.522798+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency was processed [] []
+[2023-11-16T09:13:44.523163+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency_rates was processed [] []
+[2023-11-16T09:13:44.523531+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency_symbols was processed [] []
+[2023-11-16T09:13:44.523887+00:00] main.INFO: Add of item with id PayPal_Braintree::settlement_report was processed [] []
+[2023-11-16T09:13:44.524241+00:00] main.INFO: Add of item with id PayPal_Braintree::virtual_terminal was processed [] []
